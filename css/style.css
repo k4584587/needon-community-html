@@ -1,5 +1,12 @@
 @charset "utf-8";
 
+@font-face {
+    font-family: 'LotteMartHappy';
+    font-style: inherit;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff') format('woff');
+}
+
 /* { 초기화 */
     body {
         background-color: #f2f4f7;
@@ -41,7 +48,7 @@
 
 /* 사이드바 광고 */
 .sidebar-ad {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .sidebar-category a {
