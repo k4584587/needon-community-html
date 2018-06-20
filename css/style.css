@@ -6,6 +6,8 @@
     }
 /* 초기화 } */
 
+
+
 /* { 상단 네비바 */
 .needon_nav {
     background-color: rgba(255, 150, 0, 0.75)!important;
@@ -94,3 +96,18 @@
     }
 
 /* 로그인 위젯 } */
+
+/* { 풋더 */
+footer {
+    background-color: white;
+    margin-top: 60px;
+    border-top: 1px solid #e6e6e6;
+    color: #f2f2f2;
+    font-size: 13px;
+}
+
+footer, .container:after {
+    color: #666;
+    height:   130px; 
+}
+/* 풋더 } */
